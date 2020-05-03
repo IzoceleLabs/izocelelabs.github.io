@@ -1,0 +1,67 @@
+.izo-bg-primary, body > div.container, body > div.container > ul li a {
+  background-color: #00c365;
+  color: #000000;
+}
+
+.izo-bg-primary-light {
+  background-color: #5cf794;
+  color: #000000;
+}
+
+.izo-bg-primary-dark {
+  background-color: #009138;
+  color: #000000;
+}
+
+.izo-bg-secondary, body > div.container > ul li a:hover {
+  background-color: #005ec3;
+  color: #ffffff;
+}
+
+.izo-bg-secondary-light, body {
+  background-color: #5a8af7;
+  color: #000000;
+}
+
+.izo-bg-secondary-dark, body > div.container > ul li a.active {
+  background-color: #003692;
+  color: #ffffff;
+}
+
+html {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body > div.container {
+  min-height: 20em;
+  border-bottom-left-radius: 5em;
+  border-bottom-right-radius: 5em;
+  padding-top: 0.5em;
+}
+
+body > div.container > ul li {
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+
+body > div.container > ul li a {
+  -webkit-transition: background-color 350ms ease-in-out, border-radius 350ms ease-in-out;
+  transition: background-color 350ms ease-in-out, border-radius 350ms ease-in-out;
+}
+
+body > div.container > ul li a:hover {
+  border-radius: 1em;
+}
+
+body > div.container > ul li a.active {
+  border-radius: 1em;
+}
+/*# sourceMappingURL=main_index.css.map */

@@ -1,0 +1,41 @@
+@import 'base';
+body{
+    >div{
+        &.container{
+            min-height: 20em;
+            @extend .izo-bg-primary;
+            // background: #80e9cd;
+            // background: rgb(231, 231, 231);
+            border-bottom-left-radius: 5em;
+            border-bottom-right-radius: 5em;
+            padding-top: 0.5em;
+
+            >ul{
+                // &.nav{
+                //     margin-right: 4em;
+                // }
+
+                li{
+                    margin-left: 0.2em;
+                    margin-right: 0.2em;
+
+                    a{
+                        @extend .izo-bg-primary;
+                       
+                        transition: background-color 350ms ease-in-out, border-radius 350ms ease-in-out;;
+
+                        &:hover{
+                            @extend .izo-bg-secondary;
+                            border-radius: 1em;
+                        }
+
+                        &.active{
+                            @extend .izo-bg-secondary-dark;
+                            border-radius: 1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

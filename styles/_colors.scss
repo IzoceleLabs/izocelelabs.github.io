@@ -1,0 +1,34 @@
+$primaryColor : #00c365;
+$primaryLightColor : #5cf794;
+$primaryDarkColor : #009138;
+$secondaryColor : #005ec3;
+$secondaryLightColor : #5a8af7;
+$secondaryDarkColor : #003692;
+$primaryTextColor : #000000;
+$secondaryTextColor : #ffffff;
+
+
+.izo-bg-primary{
+    background-color: $primaryColor;
+    color: $primaryTextColor;
+}
+.izo-bg-primary-light{
+    background-color: $primaryLightColor;
+    color: $primaryTextColor;
+}
+.izo-bg-primary-dark{
+    background-color: $primaryDarkColor;
+    color: $primaryTextColor;
+}
+.izo-bg-secondary{
+    background-color: $secondaryColor;
+    color: $secondaryTextColor;
+}
+.izo-bg-secondary-light{
+    background-color: $secondaryLightColor;
+    color: $primaryTextColor;
+}
+.izo-bg-secondary-dark{
+    background-color: $secondaryDarkColor;
+    color: $secondaryTextColor;
+}

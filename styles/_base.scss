@@ -1,0 +1,13 @@
+@import 'colors';
+html{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    @extend .izo-bg-secondary-light;
+
+}
